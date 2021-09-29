@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(23, 182, 182);
+}
+
+h1{
+    background-color: rgb(241, 40, 124);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 60px;
+    border-radius: 50%;
+    word-spacing: 3px;
+}
+
+.calculator{
+    border: 2px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+table{
+    width: 130%;
+    background-color: rgb(214, 22, 99);
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+}
+
+td{
+    width:25%;
+}
+
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 70px;
+    font-size: 20px;
+    border-color: yellow;
+    margin: 1px; 
+}
+
+input{
+    width: 380px;
+    height: 70px;
+    background-color: gray;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 1px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-color: black;
+}

@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewreport" content="width=device-width, initial-scale=1.0">
+        <title>Basic calculator</title>
+        <link rel="stylesheet" href="D:\cc-react-training\CSS\style.css">
+    </head>
+    <body>
+        <h1> Basic - Calculator</h1>
+        <div class="calculator">
+            <table>
 
+                <tr>
+                    <input type="text" name="" id="input">
+                </tr>
+                <tr>
+                    <td colspan="2" onclick="ClearResult()"><button>CE</button></td>
+                    <td><button onclick="Delete()">&#8592</button></td>
+                    <td><button onclick="number('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="number('7')">7</button></td>
+                    <td><button onclick="number('8')">8</button></td>
+                    <td><button onclick="number('9')">9</button></td>
+                    <td><button onclick="number('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="number('4')">4</button></td>
+                    <td><button onclick="number('5')">5</button></td>
+                    <td><button onclick="number('6')">6</button></td>
+                    <td><button onclick="number('+')"></button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="number('1')">1</button></td>
+                    <td><button onclick="number('2')">2</button></td>
+                    <td><button onclick="number('3')">3</button></td>
+                    <td><button onclick="number('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="number('0')">0</button></td>
+                    <td><button onclick="number('2')">.</button></td>
+                    <td><button onclick="number('%')">%</button></td>
+                    <td><button onclick="result()">=</button></td>
+                </tr>
+            </table>
+        </div>
+        <script src="D:\cc-react-training\JS\script.js"></script>
+    </body>
+</html>
