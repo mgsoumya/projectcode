@@ -1,14 +1,11 @@
-import react from 'react';
 import './App.css';
-import listComponent from './Title';
 
 function App() {
-  return ()
-  {
+  return (
     <div>
-      <h1>Course List</h1>
-       </List>;
+      <h1>Hello Cognitive Clouds Interns</h1>
     </div>
-  }
+  );
 }
+
 export default App;
