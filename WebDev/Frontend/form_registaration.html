@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+                <h1>Personal Details</h1>
+            </legend>
+            <label for="FN">Username</label>
+            <input type="text" name="firstname" id="FN" minlength="3"  maxlength="8" required placeholder="minimum 3 characters">
+            <br><br>
+            <label for="LN">Lastname</label>
+            <input type="text" name="lastname" id="LN" required placeholder="minimum 5 character">
+            <br><br>
+            <label for="">Email</label>
+            <input type="email" name="email" id="Email" placeholder="example@outlook.com" required>
+            <br><br>
+            <label for="">DOB</label>
+            <input type="date" name="dob" id="DOB">
+        </fieldset>
+        <br>
+            <fieldset>
+                <legend><h1>Educational details</h1></legend>
+                <label for="">Year of Graduation</label>
+                <select name="" id="">
+                    <option value="">2021</option>
+                    <option value="">2022</option>
+                    <option value="">2023</option>
+                    <option value="">2024</option>
+                    <option value="">2025</option>
+                </select>
+                <br><br>
+                <label for="">Deparment:</label>
+                <br>
+                <input type="radio" id="branch1" name="branch">
+                <label for="" >CS</label>
+                <input type="radio" id="branch2" name="branch">
+                <label for="">EC</label>
+                <input type="radio" id="branch3" name="branch">
+                <label for="">Civil</label>
+                <input type="radio" id="branch4" name="branch">
+                <label for="">Mech</label>
+                <br><br>
+                <label for="">Skills</label><br>
+                <input type="checkbox" id="Skill_1">
+                <label for="">JAVA</label>
+                <input type="checkbox" id="Skill_2">
+                <label for="">HTML</label>
+                <input type="checkbox" id="Skill_3">
+                <label for="">CSS</label>
+                <input type="checkbox" id="Skill_4">
+                <label for="">JS</label>
+            </fieldset>
+            <input type="submit" name="submit" id="SB">
+    </form>
+</body>
+</html>
