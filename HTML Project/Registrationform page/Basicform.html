@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion form</title>
+</head>
+<body>
+    <center><h2>Registartion Form</h2></center>
+    <div>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <br>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required pattern="[a-zA-Z]">
+            <br><br>
+    
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" required pattern="[a-zA-Z]">
+            <br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" required id="email" pattern="[a-z]+@[a-z]+.[a-z]{2,}">
+            <br><br>
+    
+            <label for="Ph-Num">Phone Number:</label>
+            <input type="text" required id="Ph-Num" pattern="[6-9]{1}[0-9]{9}">
+        </fieldset>
+    </div>
+    <br>
+
+    <div>
+        <fieldset>
+            <legend>Educational Details</legend>
+            <br>
+            <label>Department</label>
+            <br>
+            <input type="radio" required id="CS" name="Dept"> 
+            <label for="CS">CS</label>
+            <input type="radio" required id="ECE" name="Dept">
+            <label for="ECE">ECE</label>
+            <input type="radio" required id="Civil" name="Dept">
+            <label for="Civil">Civil</label>
+            <input type="radio" required  id="Mech" name="Dept">
+            <label for="Mech">Mech</label>
+            <input type="radio" required id="AI" name="Dept">
+            <label for="AI">AI</label>
+            <input type="radio" required  id="ML" name="Dept">
+            <label for="ML">Machine Learning</label>
+
+            <br><br>
+            <label for="YOG">Year of Graduation</label>
+            <input list="YOG">
+            <datalist id="YOG">
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+            </datalist>
+            <br><br>
+    
+            <label>Skills</label>
+            <br>
+            <input type="checkbox" id ="java">
+            <label for="java">JAVA</label>
+            <input type="checkbox" id ="python">
+            <label for="python">Python</label>
+            <input type="checkbox" id ="HTML">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id ="CSS">
+            <label for="CSS">CSS</label>
+    
+        </fieldset>
+    </div>
+</body>
+</html>
